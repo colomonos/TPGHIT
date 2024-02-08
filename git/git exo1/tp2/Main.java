@@ -56,8 +56,8 @@ class Main {
                                  92, citation_hécube,
                                  0, "",
                                  80, citation_cyclope);
-        assert citation_hécube.equals(euripide.getCitationTragédie() ) ;
-        assert 92 == euripide.getQualitéTragédie();
+        assert citation_hécube.equals(euripide.getCitationTragedie() ) ;
+        assert 92 == euripide.getQualiteTragedie();
         
 
 
@@ -65,8 +65,8 @@ class Main {
                                 8,citation_cyclope,
                                 19,citation_antigone,
                                 50,citation_cyclope) ;
-        assert citation_cyclope.equals(charle.getCitationTragédie() ) ;
-        assert 8 == charle.getQualitéTragédie();
+        assert citation_cyclope.equals(charle.getCitationTragedie() ) ;
+        assert 8 == charle.getQualiteTragedie();
 
     String citation_guêpes =
         "TRYGÉE : Tiens, voilà quelqu'un qui s'amène avec une couronne de lauriers sur la tête.\n"
@@ -82,7 +82,7 @@ class Main {
                                     100, citation_guêpes,
                                     0, "");
 
-        assert citation_thesmophories.equals(aristophane.getCitationTragédie() ) ;
-        assert 5 == aristophane.getQualitéTragédie();
+        assert citation_thesmophories.equals(aristophane.getCitationTragedie() ) ;
+        assert 5 == aristophane.getQualiteTragedie();
   }
 }
